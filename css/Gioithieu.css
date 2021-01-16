@@ -1,0 +1,128 @@
+nav {
+  background-color: #fff;
+  width: 100%;
+  height: 80px;
+}
+label.logo {
+  color: #3399ff;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+  float: left;
+}
+logo:hover {
+  color: #3399ff;
+}
+nav ul {
+  float: right;
+  margin-right: 50px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+  text-decoration: none;
+}
+nav ul li a {
+  color: #3399ff;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav ul li i {
+  color: #3399ff;
+  font-size: 15px;
+  margin-left: -10px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+.menu1 {
+  background: linear-gradient(#3366cc, #3399ff, #fff);
+  height: 80px;
+}
+.menu2 {
+  margin-left: 450px;
+}
+.container-fluid {
+  background-color: #fff;
+  height: 600px;
+  margin-top: 550px;
+}
+About {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+}
+.about-section {
+  background: url(./images/about2.jpg) no-repeat;
+  background-size: 55%;
+  background-color: #fdfdfd;
+  overflow: hidden;
+  padding: 60px 0;
+}
+.inner {
+  width: 55%;
+  float: right;
+  background-color: #fdfdfd;
+  padding: 40px;
+}
+.inner h1 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 900;
+}
+.text {
+  font-size: 13px;
+  color: #545454;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 18px;
+}
+.skills {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 23px;
+}
+.col {
+  margin-top: 50px;
+}
+.row p a {
+  color: #000;
+  text-decoration: none;
+}
+.row p a:hover {
+  color: #3399ff;
+}
+#footer ul {
+  float: right;
+  margin-right: 50px;
+}
+#footer ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 35px;
+}
+#footer ul li a {
+  font-size: 20px;
+  color: #3399ff;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+#footer p {
+  color: silver;
+  text-align: center;
+}
+.aloo {
+  position: absolute;
+  top: 1980px;
+}
+.col ul li i {
+  color: green;
+  text-decoration: none;
+}
